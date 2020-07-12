@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/icon.png">
+
+    <title>Weather</title>
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="bg-video">
+  <video class="bg-video__content" autoplay muted loop>
+   <!--  <source src="img/video.mp4" type="video/mp4"> -->
+      <source src="img/video.webm" type="video/webm">
+  </video>
+</div>
+    <header class="header"> 
+      <img src="./img/icon.png" class="logo" alt="Weather-logo">
+    
+    <form class="search">
+      <input type="text" class="search__input" placeholder="Enter location"></input>
+      <button class="button"><i class="fa fa-search " aria-hidden="true" style="color:var(--color-grey-dark-3); font-size:2rem"></i></button>
+    </form>
+
+                  <nav class="user-nav">
+
+                  <div class="user-nav__icon-box">
+                    <span class="header-icon"> <i class="fa fa-home " aria-hidden="true" style="color:#fff;font-size: 2.8rem;"></i></span>
+                     <span class="work">Home</span>
+                  </div>
+
+
+                  
+                     <div class="user-nav__icon-box">
+                      <span class="header-icon"> 
+                   <i class="fa fa-users" aria-hidden="true" style="color:#fff ;font-size: 2.8rem;"></i></span>
+                    <span class="work">Users</span>
+                      
+                  </div>
+
+                  <div class="user-nav__icon-box">
+                    <span class="header-icon"> 
+                     <i class="fa fa-bell fa-2x" aria-hidden="true" style="color:#fff;font-size: 2.8rem;"></i></span>
+                      
+                       <span class="work">Notifications</span>
+                  </div>
+                    <span class="vertical"></span>
+
+                  <div class="user-nav__info">
+                    <a href="#" class="login">
+                    Login
+                    </a>
+                    <a class="signup" href="#">Sign Up</a>
+                  </div>
+                  
+                </nav>
+    </header>
+
+
+
+
+<section class="section">
+  <div class="location">
+    <h1 class="location-timezone">Timezone</h1>
+    <img src="https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png" alt="icon" class="icon">
+  </div>
+
+  <div class="temprature">
+    <div class="degree-section">
+      <h2 class="temprature-degree">34</h2>
+      <span>C</span>
+    </div>
+
+    
+    <div class="temprature-description">Its frizzen cold</div>
+  </div>
+</section>
+
+
+  
+  
+       <div class="copyright">
+          <ul class="items">
+        
+            <li class="item"><a class='link' href="https://www.facebook.com/yogeshrana.y.rana" class="link"><i class="fa fa-facebook-square fa-3x " aria-hidden="true"></i></a></li>
+
+              <li class="item"><a class='link' href="https://www.linkedin.com/in/yogesh-rana-75476318b/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+              
+              <li class="item"><a class='link' href="https://github.com/YogeshRana07" class="link"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a></li>
+          </ul>
+          <p class="message">&copy Made by Yogesh Rana😉</p>
+        </div>
+      </div>
+    <script src="App.js"></script>
+</body>
+</html>
